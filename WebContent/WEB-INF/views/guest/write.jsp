@@ -43,7 +43,7 @@
 				<div class="form_style"  style="height: 130px;">
 					<div class="disp" style="border-width: 1px;">
 						${guestDto.name}
-						<fmt:formatDate value="${guestDto.writeDate}" pattern="yyyy-MM-DD HH:mm:ss"/>
+						<fmt:formatDate value="${guestDto.writeDate}" pattern="yyyy-MM-dd HH:mm:ss"/>
 						
 						
 						<a href="javascript:updateCheck('${guestDto.num}', '${root}')">수정</a>
