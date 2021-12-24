@@ -1,0 +1,8 @@
+#Spring Tool Suite 3
+/build/
+.settings
+.classpath
+.project
+
+#Tern plugin
+.tern-project
