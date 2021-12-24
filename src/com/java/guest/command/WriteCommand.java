@@ -32,8 +32,9 @@ public class WriteCommand implements Command {
 		ArrayList<GuestDto> guestList=null;
 		if(count > 0) {
 			guestList=GuestDao.getInstance().guestList(startRow, endRow);
+			MyLooger.logger.info(MyLooger.logMsg + guestList.size());
 		}
-		MyLooger.logger.info(MyLooger.logMsg + guestList.size());
+		
 		
 	     request.setAttribute("guestList", guestList);
 	     
